@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Bilet">
+    <output-path>$PROJECT_DIR$/out/artifacts/Bilet.war</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Bilet/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Bilet" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/Downloads/jersey-client-1.8.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/jersey-core-1.8.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/gson-2.2.2.jar" />
+          <element id="library" level="project" name="Jersey-2.2" />
+          <element id="library" level="project" name="Hibernate 5.2.9-5.2.9" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/mysql-connector-java-5.1.42-bin.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
